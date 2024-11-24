@@ -2,12 +2,12 @@
     &:before {
         content: '';
         position: absolute;
-        z-index: -1;
+        z-index:-1;
         top: -25%;
         left: 0;
         width: 36px;
         height: 36px;
         border-radius: 100%;
-        background: $main-color;
+        background: #FFA501;
     }
 }

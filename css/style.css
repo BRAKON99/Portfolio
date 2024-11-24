@@ -93,4 +93,105 @@ legend {
   font-family: "Poppins", sans-serif;
 }
 
-/* Секции *//*# sourceMappingURL=style.css.map */
+.container {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 60px;
+  color: #fff;
+}
+.title_fz14 {
+  font-size: 14px;
+  line-height: 21px;
+}
+.title_fz16 {
+  font-size: 16px;
+  line-height: 24px;
+}
+.title_fz48 {
+  font-size: 48px;
+}
+
+.btn {
+  height: 50px;
+  background: #FFA501;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  padding: 12px 25px;
+  border-radius: 7px;
+}
+
+/* Секции */
+.promo {
+  min-height: 825px;
+  position: relative;
+  z-index: 1;
+  background: url("../img/main/header-bg.jpg") no-repeat 10%/cover;
+  padding-top: 220px;
+}
+.promo__title {
+  width: 550px;
+  margin-top: 10px;
+}
+.promo__subtitle {
+  position: relative;
+  padding-left: 10px;
+}
+.promo__subtitle:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: -25%;
+  left: 0;
+  width: 36px;
+  height: 36px;
+  border-radius: 100%;
+  background: #FFA501;
+}
+.promo__btns {
+  margin-top: 25px;
+  display: flex;
+  width: 250px;
+  justify-content: space-between;
+  align-items: center;
+}
+.promo__link {
+  color: #fff;
+  font-weight: bold;
+}
+.promo__link:hover {
+  color: #fff;
+}
+
+.sidepanel {
+  z-index: 2;
+  display: flex;
+  position: absolute;
+  top: 220px;
+  left: 50px;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 340px;
+  align-items: center;
+}
+.sidepanel__link:hover svg path {
+  fill: #FFA501;
+}
+.sidepanel__divider {
+  width: 2px;
+  height: 70px;
+  background-color: #fff;
+}
+.sidepanel__text {
+  height: 150px;
+  width: 25px;
+}
+.sidepanel__text span {
+  display: block;
+  transform: rotate(-90deg) translate(-30%, -255%);
+  color: #fff;
+  width: 150px;
+}/*# sourceMappingURL=style.css.map */
