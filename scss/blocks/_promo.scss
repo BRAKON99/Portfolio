@@ -1,9 +1,9 @@
 .promo {
-    min-height: 825px;
+    min-height: 100vh;
     position: relative;
     z-index: 1;
-    background: url('../img/main/header-bg.jpg') no-repeat 10%/cover;
-    padding-top: 220px;
+    background: url('../img/main/header-bg.jpg') no-repeat 20%/cover;
+    padding-top: 210px;
     &__title {
         width: 550px;
         margin-top: 10px;
