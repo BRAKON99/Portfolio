@@ -145,15 +145,17 @@ legend {
   position: relative;
   z-index: 1;
   background: url("../img/main/header-bg.jpg") no-repeat 20%/cover;
-  padding-top: 210px;
+  padding-top: 250px;
 }
 .promo__title {
   width: 550px;
   margin-top: 10px;
+  margin-left: 50px;
 }
 .promo__subtitle {
   position: relative;
   padding-left: 10px;
+  margin-left: 50px;
 }
 .promo__subtitle:before {
   content: "";
@@ -172,6 +174,7 @@ legend {
   width: 250px;
   justify-content: space-between;
   align-items: center;
+  margin-left: 50px;
 }
 .promo__link {
   color: #fff;
@@ -185,7 +188,7 @@ legend {
   z-index: 2;
   display: flex;
   position: absolute;
-  top: 210px;
+  top: 250px;
   left: 50px;
   flex-direction: column;
   justify-content: space-between;

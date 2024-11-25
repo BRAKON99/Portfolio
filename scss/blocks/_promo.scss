@@ -3,15 +3,17 @@
     position: relative;
     z-index: 1;
     background: url('../img/main/header-bg.jpg') no-repeat 20%/cover;
-    padding-top: 210px;
+    padding-top: 250px;
     &__title {
         width: 550px;
         margin-top: 10px;
+        margin-left: 50px;
     }
     &__subtitle {
         position: relative;
         padding-left: 10px;
         @include before_circle;
+        margin-left: 50px;
     }
     &__btns {
         margin-top: 25px;
@@ -19,6 +21,7 @@
         width: 250px;
         justify-content: space-between;
         align-items: center;
+        margin-left: 50px;
     }
     &__link {
         color: #fff;
