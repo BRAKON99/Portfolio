@@ -23,6 +23,9 @@
         font-size: 16px;
         line-height: 24px;
     }
+    &_fz20 {
+        font-size: 20px;
+    }
     &_fz36 {
         padding-top: 10px;
         font-size: 36px;
@@ -45,5 +48,5 @@
     width: 60px;
     height: 3px;
     background-color: #FFA501;
-    margin-top: 25px;
+    margin: 25px auto 0 auto;
 }
